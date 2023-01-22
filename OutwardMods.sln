@@ -6,8 +6,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutwardMod-CoopUIScaler", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{AA397283-C118-49EE-A35D-0803BC87E791}"
 ProjectSection(SolutionItems) = preProject
-	UserPaths.props.template = UserPaths.props.template
-	UserPaths.props = UserPaths.props
 	README.md = README.md
 	.gitignore = .gitignore
 	LICENSE = LICENSE

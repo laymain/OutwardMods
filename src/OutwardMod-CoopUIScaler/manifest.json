@@ -1,0 +1,7 @@
+﻿{
+  "name": "CoopUIScaler",
+  "version_number": "0.0.5",
+  "website_url": "https://github.com/laymain/OutwardMods/tree/master/src/OutwardMod-CoopUIScaler",
+  "description": "Thunderstore Upload of https://www.nexusmods.com/outward/mods/152",
+  "dependencies": ["BepInEx-BepInExPack_Outward-5.4.19"]
+}

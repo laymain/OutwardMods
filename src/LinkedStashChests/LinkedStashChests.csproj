@@ -1,42 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-    <Import Project="$(SolutionDir)\UserPaths.props" />
-
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <RootNamespace>LinkedStashChests</RootNamespace>
         <AssemblyName>LinkedStashChests</AssemblyName>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     </PropertyGroup>
 
     <ItemGroup>
-        <Reference Include="Assembly-CSharp">
-            <HintPath>$(OutwardRootPath)\Outward_Data\Managed\Assembly-CSharp.dll</HintPath>
-            <Private>False</Private>
-        </Reference>
-        <Reference Include="Assembly-CSharp-firstpass">
-            <HintPath>$(OutwardRootPath)\Outward_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
-            <Private>False</Private>
-        </Reference>
-        <Reference Include="HOOKS-Assembly-CSharp">
-            <HintPath>$(OutwardRootPath)\BepInEx\plugins\PartialityWrapper\HOOKS-Assembly-CSharp.dll</HintPath>
-            <Private>False</Private>
-        </Reference>
-        <Reference Include="Partiality">
-            <HintPath>$(OutwardRootPath)\BepInEx\plugins\PartialityWrapper\Partiality.dll</HintPath>
-            <Private>False</Private>
-        </Reference>
-        <Reference Include="Rewired_Core">
-            <HintPath>$(OutwardRootPath)\Outward_Data\Managed\Rewired_Core.dll</HintPath>
-            <Private>False</Private>
-        </Reference>
-        <Reference Include="UnityEngine">
-            <HintPath>$(OutwardRootPath)\Outward_Data\Managed\UnityEngine.dll</HintPath>
-            <Private>False</Private>
-        </Reference>
-        <Reference Include="UnityEngine.CoreModule">
-            <HintPath>$(OutwardRootPath)\Outward_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
-            <Private>False</Private>
-        </Reference>
+      <PackageReference Include="BepInEx.BaseLib" Version="5.4.19.0" />
+      <PackageReference Include="HarmonyX" Version="2.10.1" />
+      <PackageReference Include="Outward.GameLibs" Version="2022.5.18-r.0" />
     </ItemGroup>
 
 </Project>
