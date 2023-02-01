@@ -1,0 +1,7 @@
+﻿{
+  "name": "CoopMultiDisplay",
+  "version_number": "0.0.1",
+  "website_url": "https://github.com/laymain/OutwardMods/tree/master/src/CoopMultiDisplay",
+  "description": "Split screen with multiple displays support (https://www.nexusmods.com/outward/mods/263/)",
+  "dependencies": ["BepInEx-BepInExPack_Outward-5.4.19"]
+}

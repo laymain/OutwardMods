@@ -13,7 +13,7 @@ namespace OutwardMod_CoopUIScaler
     {
         private const string Id = "com.laymain.outward.mods.coopuiscaler";
         private const string Name = "CoopUIScaler";
-        private const string Version = "0.0.5";
+        private const string Version = "0.0.6";
         private const string Author = "SirMuffin+Laymain";
 
         private static ManualLogSource _logger;
